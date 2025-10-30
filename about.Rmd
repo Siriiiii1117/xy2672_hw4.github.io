@@ -1,0 +1,11 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This website is coded by Xirui Yang, using RMarkdown to do all the hard work
+
+Go back to the [homepage](index.html)

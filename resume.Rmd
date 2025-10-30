@@ -1,0 +1,56 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: false
+    toc_float: true
+---
+
+This is a resume sample (not resume format):
+
+### Xirui Yang
+
+Fort Lee, New Jersey 07024 | (323) 633-5729 | xy2672@cumc.columbia.edu
+
+### EDUCATION:
+**Columbia University, New York, NY**						
+- Mailman School of Public Health, Master of Public Health (Expected May 2026)  
+- Major in Epidemiology, Certificate in Health of an Aging Society  
+**University of Southern California, Los Angeles, CA**  
+- Dornsife College of Letters, Arts and Sciences, Bachelor of Arts (GPA:3.88, Sept. 2019 - May 2024)  
+- Major in Health and Human Sciences, Minors in Statistics and Applied Analytics  
+- Relevant Coursework: Statistical Inference and Data Analysis, Machine Learning  
+
+### EXPERIENCE:
+**Columbia University, New York, United States**  
+Research Assistant, Oct. 2024 - Dec. 2024, Feb. 2025 - Present  
+- Curated a biomarker data dictionary for the CARDIA study across 8 follow-up waves and identified candidate biomarkers for the Pace of Aging model  
+- Standardized and reorganized large datasets to enhance accessibility and clarity for research team  
+- Established data management protocols for raw data files to ensure integrity and streamline for research workflows <br>      
+**University of Southern California, Los Angeles, United States**  
+Research Assistant, June 2023 - Dec. 2023, June 2024 - Aug. 2024  
+- Interpreted transcripts from MDTs (multidisciplinary teams) and social worker listening session to define qualitative data variables for an algorithm optimizing case presentation benefits for clients  
+- Researched and evaluated fidelity measurement instruments to refine the core elements of fidelity and improved the evaluation process for future intervention programs  
+
+**CALIBRA Scientific, Inc., Hangzhou, China**  
+Research Intern, July 2023 - July 2023  
+- Conducted LC-MS metabolomics data preprocessing for accurate statistical analysis  
+- Applied PCA, PLS-DA, and Random Forest models to identify significant metabolic biomarkers   
+
+**Shenzhen University Medical School, Shenzhen, China**  
+Research Assistant, Department of Epidemiology, June 2023 - Aug. 2023  
+- Determined the inclusion and exclusion criteria for study population, and testing methods for a study exploring the role of mitochondrial DNA copy number in the development of Type 2 diabetes  
+- Conducted literature reviews on bone aging, fractures, and osteoporosis, contributing to a larger study on bone diseases, risk factors, and diagnosis
+
+Research Assistant, Department of Medicine, Apr. 2022 - July 2022  
+- Analyzed data from 5+ silenced gene sites and interpreted experimental data to determine future target sites for inhibiting Tuberculosis cell growth 
+- Assessed the effectiveness of Myriocin on the cell resistance to Tuberculosis cells moderated by the number of lipid droplets
+
+**Tencent Inc., Shenzhen, China**  
+Product Manager Intern June 2021 - Feb. 2022  
+- Categorized users based on behavior data to design targeted health-related content and personalize service recommendations, improving users engagement and treatment adherence  
+- Contributed  to the development of a WeChat-based SaaS platform, enhancing digital health services through secure doctor - patient communication, appointment scheduling, and remote consultation
+
+### SKILLS:  
+Python, R, and SAS
+

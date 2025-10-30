@@ -1,0 +1,81 @@
+---
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+
+```{r}
+data("instacart")
+
+set.seed(1234) 
+
+instacart_df = 
+  sample_n(instacart, 1000)
+
+top20_aisle = 
+  instacart_df |> 
+  count(aisle) |> 
+  arrange(desc(n)) |> 
+  slice_head(n = 20) 
+  
+instacart_df = 
+  instacart_df |> 
+  semi_join(top20_aisle, by = "aisle") |> 
+  select(aisle, order_hour_of_day)
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Top 20 Most Frequently Purchased Aisles
+
+```{r}
+instacart_df |> 
+  count(aisle) |> 
+  slice_max(n, n = 20) |> 
+  mutate(
+    aisle = fct_reorder(aisle, n)
+  ) |> 
+  plot_ly(
+    x = ~aisle, y = ~n,
+    type = "bar"
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B Distribution of Orders by Hour of Day
+
+```{r}
+instacart_df |> 
+  count(order_hour_of_day) |> 
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~n,
+    type = "scatter",
+    mode = "line"
+  )
+```
+
+### Chart C Distribution of the Time of Order Across Top 20 Aisles
+
+```{r}
+instacart_df |> 
+  plot_ly(
+    x = ~aisle, y = ~order_hour_of_day, color = ~aisle,
+    type = "box", colors = "viridis"
+  )
+```
+

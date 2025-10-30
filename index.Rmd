@@ -1,0 +1,20 @@
+---
+title: "XY website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Welcome to Xirui Yang's website! 
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDB0N3N5cTZuNW0yOTh0bTMzdDVoYWl6czZ6Z3VnMHJ4YWN4N2F2MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ASd0Ukj0y3qMM/giphy.gif)
+
+
+This website contains personal information of Xirui Yang.
+
+Hi, I’m Xirui Yang, a Master of Public Health student in Epidemiology at Columbia University with a certificate in Health of an Aging Society. I am interested in gerontology and aging. I am currently volunteering at the Columbia Aging Center on research about Pace of Aging. 
+
+Learn more about me from [here](resume.html).
+
+[Here](dashboard.html) is the Instacart Dashboard that finds the information between Order Hour of the Day and Top 20 Most Frequently Purchased Aisles.
